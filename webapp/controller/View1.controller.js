@@ -8,7 +8,8 @@ sap.ui.define([
         onInit() {
         },
         onpress: function onpress() {
-         this.getOwnerComponent().getRouter().navto("RouteView2");
+         // this.getOwnerComponent().getRouter().navto("RouteView2");
+         this.getOwnerComponent.getRouter.navto("RouteView2")
         }
         
     });

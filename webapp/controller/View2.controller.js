@@ -8,7 +8,7 @@ sap.ui.define([
         onInit() {
         },
         onpress: function onpress() {
-            alert("testing");
+          this.getOwnerComponent.getRouter.navTo("RouteView1");
         }
         
     });
