@@ -3,6 +3,7 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
     <content>
+    
     <Button id="Button" text="Go to view 2" press="onpress" ></Button>
     </content>
     </Page>
