@@ -79,20 +79,38 @@
           "target": [
             "TargetView1"
           ]
+        },
+        {
+          "name": "RouteView2",
+          "pattern": ":?query:",
+          "target": [
+            "TargetView2"
+          ]
         }
       ],
       "targets": {
         "TargetView1": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
           "id": "View1",
           "name": "View1"
         }
+      },
+      "TargetView2": {
+        "viewType": "XML",
+        "transition": "slide",
+        "clearControlAggregation": false,
+        "id": "View2",
+        "name": "View2"
       }
-    },
-    "rootView": {
-      "viewName": "com.demo.zb70sapui52.view.App",
-      "type": "XML",
-      "id": "App",
-      "async": true
     }
+  },
+  "rootView": {
+    "viewName": "com.demo.zb70sapui52.view.App",
+    "type": "XML",
+    "id": "App",
+    "async": true
   }
+}
 }

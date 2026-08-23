@@ -4,11 +4,11 @@ sap.ui.define([
     "use strict";
     
 
-    return Controller.extend("com.demo.zb70sapui52.controller.View1", {
+    return Controller.extend("com.demo.zb70sapui52.controller.View2", {
         onInit() {
         },
         onpress: function onpress() {
-         this.getOwnerComponent().getRouter().navto("RouteView2");
+            alert("testing");
         }
         
     });
