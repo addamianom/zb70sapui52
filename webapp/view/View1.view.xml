@@ -3,7 +3,8 @@
     xmlns="sap.m">
     <Page id="page"  title="{i18n>title1}">
     <content >
-    <Button id="Button1" text="Go to view 2" press="onPress" ></Button>
+    <Text text="Welcome to sapui5" textAlign="center" width="100%" ></Text>
+   // <Button id="Button1" text="Go to view 2" press="onPress" ></Button>
     </content>
     </Page>
 </mvc:View>
