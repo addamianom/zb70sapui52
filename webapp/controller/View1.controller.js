@@ -7,7 +7,7 @@ sap.ui.define([
     return Controller.extend("com.demo.zb70sapui52.controller.View1", {
         onInit() {
         },
-        onpress: function onpress() {
+        onpress: function onPress() {
          this.getOwnerComponent.getRouter.navTo("RouteView2");
         }
         

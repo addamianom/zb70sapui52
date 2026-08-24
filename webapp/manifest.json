@@ -70,7 +70,8 @@
         "viewType": "XML",
         "path": "com.demo.zb70sapui52.view",
         "async": true,
-        "viewPath": "com.demo.zb70sapui52.view"
+        
+        "clearControlAggregation": false
       },
       "routes": [
         {

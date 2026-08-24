@@ -4,7 +4,7 @@
     <Page id="page1"  title="{i18n>title1}">
     <content >
     
-    <Button id="Button1" text="Go to view 2" press="onpress" ></Button>
+    <Button id="Button1" text="Go to view 2" press="onPress" ></Button>
     </content>
     </Page>
 </mvc:View>
