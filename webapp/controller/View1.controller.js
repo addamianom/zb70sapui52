@@ -6,12 +6,10 @@ sap.ui.define([
     return Controller.extend("com.demo.zb70sapui52.controller.View1", {
         onInit() {
         },
-        onpress: function onPress() {
-        
-         // this().getOwnerComponent().getRouter().navTo("RouteView2");
-         let oRouter = this().getOwnerComponent().getRouter();
-         oRouter.navTo("RouteView2");
+        onPress: function () {
+            this.getOwnerComponent().getRouter().navTo("RouteView2");
+            // let oRouter = this().getOwnerComponent().getRouter();
+            // oRouter.navTo("RouteView2");
         }
-        
     });
 });

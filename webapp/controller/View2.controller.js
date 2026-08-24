@@ -3,13 +3,11 @@ sap.ui.define([
 ], (Controller) => {
     "use strict";
     
-
     return Controller.extend("com.demo.zb70sapui52.controller.View2", {
         onInit() {
         },
-        onPressback: function onPressback() {
-          this().getOwnerComponent().getRouter.navTo("RouteView1");
-        }
-        
+        onPressback: function() {
+          this.getOwnerComponent().getRouter().navTo("RouteView1");
+        } 
     });
 });

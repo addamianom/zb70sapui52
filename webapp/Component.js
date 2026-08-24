@@ -3,13 +3,12 @@ sap.ui.define([
     "com/demo/zb70sapui52/model/models"
 ], (UIComponent, models) => {
     "use strict";
-
     return UIComponent.extend("com.demo.zb70sapui52.Component", {
         metadata: {
-            manifest: "json"
-         /*   interfaces: [
+            manifest: "json",
+           interfaces: [
                 "sap.ui.core.IAsyncContentCreation"
-            ] */
+            ] 
         },
 
         init() {
