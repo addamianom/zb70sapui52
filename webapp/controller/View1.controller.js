@@ -11,6 +11,5 @@ sap.ui.define([
             // let oRouter = this().getOwnerComponent().getRouter();
             // oRouter.navTo("RouteView2");
         }
-        
     });
 });
