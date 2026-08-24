@@ -76,14 +76,14 @@
       "routes": [
         {
           "name": "RouteView1",
-          "pattern": "",
+          "pattern": ":?query:",
           "target": [
             "TargetView1"
           ]
         },
         {
           "name": "RouteView2",
-          "pattern": "secondview",
+          "pattern": "view2",
           "target": [
             "TargetView2"
           ]

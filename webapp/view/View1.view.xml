@@ -1,9 +1,8 @@
 <mvc:View controllerName="com.demo.zb70sapui52.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page1"  title="{i18n>title1}">
+    <Page id="page"  title="{i18n>title1}">
     <content >
-    
     <Button id="Button1" text="Go to view 2" press="onPress" ></Button>
     </content>
     </Page>

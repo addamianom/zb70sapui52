@@ -2,13 +2,15 @@ sap.ui.define([
     "sap/ui/core/mvc/Controller"
 ], (Controller) => {
     "use strict";
-    
 
     return Controller.extend("com.demo.zb70sapui52.controller.View1", {
         onInit() {
         },
         onpress: function onPress() {
-         this.getOwnerComponent.getRouter.navTo("RouteView2");
+        
+         // this().getOwnerComponent().getRouter().navTo("RouteView2");
+         let oRouter = this().getOwnerComponent().getRouter();
+         oRouter.navTo("RouteView2");
         }
         
     });
