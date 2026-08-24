@@ -6,6 +6,7 @@
     <Text text="Welcome to sapui5" textAlign="Center" width="100%" ></Text>
    // <Button id="Button1" text="Go to view 2" press="onPress" ></Button>
     </content>
+    
     </Page>
 </mvc:View>
 
