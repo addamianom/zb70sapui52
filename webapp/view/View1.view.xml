@@ -4,16 +4,16 @@
     <Page id="page"  title="{i18n>title1}">
     <content >
 
-<Text id = "idt1" text="Welcome to sapui5" textAlign="Center"
+<Text id="idt1" text="Welcome to sapui5" textAlign="Center"
  width="100%" class="sapMH1FontSize" ></Text>
 
-<Text id = "idt2" text="Welcome to sapui5" textAlign="Center"
+<Text id="idt2" text="Welcome to sapui5" textAlign="Center"
  width="100%" class=".mytextfontsize" ></Text>
 
- <Label id = "idlbl"  text="Enter your name" required="true"></Label>
- <Input id = "inp1" width="30%" maxLength="10" value="Michele"></Input>
+ <Label id="idlbl"  text="Enter your name" required="true"></Label>
+ <Input id="inp1" width="30%" maxLength="10" value="Michele"></Input>
 
- <Button id="Button1" text="Submit" type="Emphasized" class="sapUiMediumMarginBegin" press="onSubmit"></Button> 
+ <Button id="idsubmit" text="Submit" type="Emphasized" class="sapUiMediumMarginBegin" press="onSubmit"></Button> 
     </content>
 <footer>
         <Bar id="idbar" >

@@ -11,14 +11,18 @@ sap.ui.define([
             // let oRouter = this().getOwnerComponent().getRouter();
             // oRouter.navTo("RouteView2");
         },
-
         onSubmit: function () {
-         var name = this.getView().byid("inp1").getvalue();
-         var msg = "Welcome to " + name;
-         this.getView().byid("idt2").setvalue();
+
+
+
+            var name = this.getView().byId("inp1").getValue();
+            var msg = "Welcome to " + name;
+            this.getView().byId("idt1").setText(msg);
+            this.getView().byId("idsubmit").setType("Reject");
+            this.getView().byId("idt1").setTextAlign("Left");
+            this.getView().byId("idlbl").setRequired(false);
+            this.getView().byId("inp1").setEnabled(false);
         }
-
-
 
     });
 });
